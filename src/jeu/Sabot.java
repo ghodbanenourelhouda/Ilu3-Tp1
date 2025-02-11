@@ -98,7 +98,7 @@ public class Sabot implements Iterable <Carte>{
 		iterateur.remove();
 		return carte;
 		}
-	
+
 	
 	
 	

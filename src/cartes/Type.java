@@ -6,7 +6,7 @@ public enum Type {
 	ESSENCE ("Panne d'essence" ,"Essence" ,"Citerne d'essence"),
 	CREVAISON ("Crevaison" , "Roue de secours", "Increvable"),
 	ACCIDENT ("Accident" , "Réparation", "As du volant"),
-	LIMITE ("Limite 50", "Fin de limite","Véhicule prioritaire" );
+	LIMITE ("Limite 50", "Fin de limite","Véhicule prioritaire");
 	
 	
 	private final String attaque ;

@@ -1,7 +1,10 @@
 package cartes;
 
 public abstract class Carte {
-	
-	//est ce qu'elle reste vide ?
-	
+
+	@Override
+	public boolean equals(Object obj) {
+		return obj != null && obj.getClass().equals(getClass());
+	}
+
 }

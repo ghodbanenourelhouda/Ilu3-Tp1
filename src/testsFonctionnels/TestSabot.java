@@ -7,7 +7,7 @@ import jeu.Sabot;
 
 public class TestSabot {
 
-	private static final int CAPACITE_MAXIMALE = 106; //**est ce que j'ajoute les cartes memo ?
+	private static final int CAPACITE_MAXIMALE = 106;
 
 	public static void main(String[] args) {
 		Carte [] cartes = new Carte [CAPACITE_MAXIMALE];
@@ -82,7 +82,7 @@ public class TestSabot {
 //			try {
 //	            sabot.piocher(); 
 //	        } catch (IllegalStateException e) {
-//	            System.out.println("Le sabot est vide"); // **si je fait comme ça il me dit que le sabot a été modifier
+//	            System.out.println("Le sabot est vide");
 //	        }
 		}
 	}
